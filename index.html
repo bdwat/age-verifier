@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hora do Dia</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="header">
+			<h1>Verificador de idade</h1>
+		</div>
+		<div class="content">
+			<div class="title">
+				<p>
+					Ano de Nascimento:
+					<input type="number" name="txtage" id="txtage" min="0" />
+				</p>
+				<p>
+					Qual é o seu sexo?
+					<input type="radio" name="radsex" id="masc" checked />
+					<label for="masc">Masculino</label>
+					<input type="radio" name="radsex" id="fem" />
+					<label for="fem">Feminino</label>
+				</p>
+				<p><input type="button" value="Check" onclick="checar()" /></p>
+			</div>
+
+			<div class="image"></div>
+
+			<div class="res"></div>
+		</div>
+		<footer>&copy;Eu mesmo :)</footer>
+	</body>
+	<script src="index.js"></script>
+</html>
